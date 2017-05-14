@@ -1,0 +1,190 @@
+html {
+	overflow: hidden;
+}
+.navbar {
+	height: 20px !important;
+	text-transform: uppercase;
+	/*color: black;*/
+	font-size: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: 'Oswald', sans-serif;
+	line-height: 20px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; 
+}
+.navbar .navbar-collapse {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  word-spacing: -0.2em; 
+}
+.navbar-nav > li > a {
+	padding-top:5px !important; 
+	padding-bottom:5px !important;
+}
+.navbar {
+	min-height:32px !important
+}
+/*background image*/
+#bg {
+  position: fixed; 
+  top: -47%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.8;
+}
+  
+div.transbox {
+  margin: 0px;
+  background-color: #ffffff;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  padding-bottom: 910px;
+}
+
+/*Text message on the top*/
+#TextCont {
+	position: absolute;
+	width: 45%;
+	text-align: center;
+	/*padding-top: 140px;*/
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#TextCont h2 {
+	color: #8b0000 ;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#TextCont h1, h2 {
+	display: inline;
+}
+
+.w3-card-4 {
+	text-align:center; 
+	/*width: 55%; */
+	border-radius: 20px; 
+	/*margin-left: 33%;*/
+}
+
+/*main content
+#MainContent {
+	position: relative;
+	width: 100%;
+	padding-top:300px; 
+	padding-bottom: 300px;
+	text-align: center;
+}*/
+
+/* WORK */
+.row {
+  width: 100%;
+  margin: 0 auto;
+  /*padding-top: 10px;*/
+}
+#col-services-cards {
+	/*width: 20%;*/
+	text-align: center;
+	margin: 0 auto;
+	/*left: 20%; */
+	padding-bottom: 10px;
+}
+
+#col-flip-cards {
+	width: 20%;
+	text-align: center;
+	margin: 0 auto;
+	/*left: 20%; */
+
+}
+.card-img {
+	width: 90%;
+	height: 205px;
+	margin: 0 auto;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.card {
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0);
+}
+
+/* CONTACT */
+#containerForm {
+	position: absolute; /*so that container is not transparent*/
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 25%;
+	width: 50%;
+	padding-top: 260px;
+}
+.form-group {
+	border-radius: 15px;
+}
+#containerForm a{
+	color: black;
+}
+#containerForm a:hover {
+	color:darkred;
+	text-decoration: none;
+}
+
+#containerForm h2 {
+	font-family: 'Pacifico', cursive;
+	text-transform: lowercase;
+}
+
+
+.row-centered {
+	text-align:center;
+	background-size: cover;
+}
+.col-md-4 {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.col-centered { 
+	display:inline-block; 
+	float:none; 
+	margin-right:-4px;
+	text-align: left;
+}
+
+/* page SERVICES */
+#servicesContainer p {
+	/*padding-top: 10px;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	padding-left: 0px;
+	font-weight: bold;
+}
+
+#servicesContainer h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin: 0px;
+}

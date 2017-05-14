@@ -1,0 +1,14 @@
+<div style="padding-top: 100px; position: relative;">
+  <div class="col-md-4">
+
+    <h1 class="w3-card-4">Details</h1>
+    <p>{{$ctrl.service.details}}</p>
+
+    
+    <button ng-click="$ctrl.myFunc()">Additional details!</button>
+    <div ng-show="$ctrl.showMe">
+        <p>{{$ctrl.service.additionalDetails}}</p>
+    </div>
+
+  </div>
+</div>

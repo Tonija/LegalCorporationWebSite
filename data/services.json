@@ -1,0 +1,39 @@
+[
+	{
+		"id":"legal-service",
+		"name":"Legal Services",
+		"snippet":"Lorem ipsum dolor sit amet.",
+		"imageUrl": "img/s01.png",
+		"age": 1
+	},{
+		"id":"alliances-partnerships",
+		"name": "Partnerships",
+		"snippet":"awesome product",
+		"imageUrl": "img/s02.png",
+		"age": 2
+	},{
+		"id":"capital-investments",
+		"name":"Capital Investments",
+		"snippet": "excellent product",
+		"imageUrl": "img/s03.png",
+		"age": 3
+	},{
+		"id":"due-diligence",
+		"name":"Due Diligence",
+		"snippet": "excellent product2",
+		"imageUrl": "img/s04.jpg",
+		"age": 4
+	},{
+		"id":"employement-agreements",
+		"name":"Employment Agreements",
+		"snippet": "excellent3 product",
+		"imageUrl": "img/s05.png",
+		"age": 5
+	},{
+		"id":"litigation-management",
+		"name":"Litigation Management",
+		"snippet": "excellent aaa",
+		"imageUrl": "img/s06.png",
+		"age": 6
+	}
+]
