@@ -1,8 +1,6 @@
+<div class="row row-centered row-flip-cards">
 
-
-<div class="row row-centered" style="padding-top: 320px;">
-
-  <div class="col-md-4 col-centered noppading" id="col-flip-cards" ng-repeat="currentImage in $ctrl.flipImages"> 
+  <div class="col-xs-12 col-sm-6 col-md-4 col-centered noppading flip-cards-holder" ng-repeat="currentImage in $ctrl.flipImages"> 
     <div class="card"> 
       <div class="front">
         <img ng-src="{{currentImage.frontImg}}" class="card-img img-circle"/> 

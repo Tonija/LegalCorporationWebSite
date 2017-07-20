@@ -20,16 +20,16 @@ serviceDetail.component('serviceDetail', {
 		 	});
 
 		 	this.showMe = false;
+		 	this.detailsButton = "Show";
 			this.myFunc = function() { 
 	            this.showMe = !this.showMe;
+	            if(this.showMe) {
+	            	this.detailsButton = "Hide";
+	            }
+	            else {
+	            	this.detailsButton = "Show";
+	            }
 	        }
 		}		
 	]
 });
-
-/*
-$http({
-	url: "/services/3",
-	method: "GET"
-});
-*/

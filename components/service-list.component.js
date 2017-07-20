@@ -14,7 +14,6 @@ serviceList.component('serviceList', {
 			$http.get('data/services.json').then(function(response){
 				self.services=response.data;
 			});
-
 	    }
     ]
 });

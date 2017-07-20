@@ -2,37 +2,43 @@
 	{
 		"id":"legal-service",
 		"name":"Legal Services",
-		"snippet":"Lorem ipsum dolor sit amet.",
+		"contact": "Contact Name 1",
+		"snippet":"service No1",
 		"imageUrl": "img/s01.png",
 		"age": 1
 	},{
 		"id":"alliances-partnerships",
 		"name": "Partnerships",
-		"snippet":"awesome product",
+		"contact": "Contact Name 2",
+		"snippet":"service No2",
 		"imageUrl": "img/s02.png",
 		"age": 2
 	},{
 		"id":"capital-investments",
 		"name":"Capital Investments",
-		"snippet": "excellent product",
+		"contact": "Contact Name 3",
+		"snippet": "service No3",
 		"imageUrl": "img/s03.png",
 		"age": 3
 	},{
 		"id":"due-diligence",
 		"name":"Due Diligence",
-		"snippet": "excellent product2",
+		"contact": "Contact Name 4",
+		"snippet": "service No4",
 		"imageUrl": "img/s04.jpg",
 		"age": 4
 	},{
 		"id":"employement-agreements",
 		"name":"Employment Agreements",
-		"snippet": "excellent3 product",
+		"contact": "Contact Name 5",
+		"snippet": "service No5",
 		"imageUrl": "img/s05.png",
 		"age": 5
 	},{
 		"id":"litigation-management",
 		"name":"Litigation Management",
-		"snippet": "excellent aaa",
+		"contact": "Contact Name 6",
+		"snippet": "service No6",
 		"imageUrl": "img/s06.png",
 		"age": 6
 	}

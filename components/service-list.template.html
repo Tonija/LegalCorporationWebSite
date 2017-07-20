@@ -1,48 +1,41 @@
-<div class="container-fluid" id="servicesContainer" style="padding-top: 100px; position: relative;">
-
+<div class="row row-query">
 	<div class="col-md-2">
+
 		<p>
-			Search: 
-			<input type="text" ng-model="$ctrl.query"/>	
+			<input type="text" ng-model="$ctrl.query" placeholder="Search:" />	
 		</p>
 
-		<p>
-			Sort by:
+		<p style="color: grey;">
 			<select ng-model="$ctrl.orderProp">
 				<option value="name">Alphabetical</option>
 				<option value="age">Newest</option>
 			</select>
-		</p>
-		
+		</p>		
 	</div>
-
-	<div class="col-md-8">
-
-	  <div class="row row-centered" >
-		<div class="col-md-4 col-centered noppading" id="col-services-cards" ng-repeat="service in $ctrl.services | filter: $ctrl.query | orderBy: $ctrl.orderProp">
-		     <div class="w3-card-4" id="w3card4" >
-		        <header class="w3-container w3-light-grey">
-		            <h3>{{service.name}}</h3>
-		        </header>
-		        <div class="w3-container">
-		           <br />
-		           <p>{{service.snippet}}</p>
-		           <hr />
-		           <img ng-src="{{service.imageUrl}}" alt="Avatar" class="w3-left w3-circle" width="33%;"/> 
-		           <br />
-		           <p>Red Cat CEO</p>
-		           <br />
-		         </div>
-		         <!-- <button class="w3-btn-block w3-dark-grey" id="button1"> Click me</button> -->
-		         <a ng-href="#!/services/{{service.id}}" class="button w3-btn-block w3-dark-grey">Click me</a> 
-		      </div>
-		    </div>
-        </div>
-
-	</div>
-
- 
 </div>
+
+<div class="row row-service-cards" >
+	<div class="col-xs-12 col-md-4 col-centered" ng-repeat="service in $ctrl.services | filter: $ctrl.query  | orderBy: $ctrl.orderProp">
+
+	    <div class="w3-card-4 service-card" >
+	        <header class="w3-container w3-light-grey">
+	            <h3>{{service.name}}</h3>
+	        </header>
+	        <div class="w3-container">
+	           <br />
+	           <p>{{service.snippet}}</p>
+	           <hr />
+	           <img ng-src="{{service.imageUrl}}" alt="Avatar" class="w3-left w3-circle" width="28%;"/> 
+	           <br />
+	           <p>{{service.contact}}</p>
+	           <br />
+	        </div>	         
+	        <a ng-href="#!/services/{{service.id}}" class="button w3-btn-block w3-dark-grey">Click</a> 
+	    </div>
+	</div>
+</div>
+
+	
 
 
 

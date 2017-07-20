@@ -1,21 +1,22 @@
-<img src="img/pigeon.png" width="9%;" />
-    <h2> <a>hello@hello.com</a> </h2>
+<div class="contact-form">
 
-<form role="form" ng-submit="$ctrl.submit()">
+  <img src="img/pigeon.png" height="50px;" />
+      <h2> <a>hello@hello.com</a> </h2>
 
-  <div class="form-group" style="padding-top:12px;">
-    <input type="name" class="form-control" ng-model="$ctrl.name" placeholder="NAME" required="" />
-  </div>
-  <div class="form-group">
-      <input type="email" class="form-control" ng-model="$ctrl.email" placeholder="EMAIL" required="" />
-  </div>
-  <div class="form-group">
-      <input type="phone" class="form-control" ng-model="$ctrl.phone" placeholder="PHONE"/>
-  </div>
-  <div class="form-group">
-      <input type="comments" class="form-control" ng-model="$ctrl.comments" placeholder="COMMENTS" required="" />
-  </div>
-  <button type="submit" id="submit" class="btn btn-danger" value="Submit" style="margin-top: 20px;">{{$ctrl.btnTxt}}</button>
-  <!--<pre>list={{$ctrl.userList}}</pre>-->
+  <form role="form" ng-submit="$ctrl.submit()">
 
-</form>
+    <div class="form-group">
+      <input type="name" class="form-control" ng-model="$ctrl.name" placeholder="NAME" required="" />
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" ng-model="$ctrl.email" placeholder="EMAIL" required="" />
+    </div>
+    <div class="form-group">
+        <input type="phone" class="form-control" ng-model="$ctrl.phone" placeholder="PHONE"/>
+    </div>
+    <div class="form-group">
+        <input type="comments" class="form-control" ng-model="$ctrl.comments" placeholder="COMMENTS" required="" />
+    </div>
+    <button type="submit" id="submit" class="btn btn-danger" value="Submit">{{$ctrl.btnTxt}}</button>
+  </form>
+</div>

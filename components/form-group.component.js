@@ -8,7 +8,6 @@ formGroup.component('formGroup', {
 
 	controller: ['$http',
 		function FormGroupController($http){
-
 			this.btnTxt = "Submit";
 			this.userList = [];
       		this.name = this.email = this.phone = this.comments = '';
