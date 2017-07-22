@@ -10,17 +10,12 @@
             <img src="img/test3.png" height="65px;"/>
         </div>        
     </div>
-
-  	
     
-	<div class="col-md-offset-4 col-md-5 service-detail-card ">
-    	<p>{{$ctrl.service.details}}</p> 
-    	<button id="detailsButton" class="w3-btn w3-round-xxlarge" ng-click="$ctrl.myFunc()"> {{$ctrl.detailsButton}} </button>
-	    <div ng-show="$ctrl.showMe">
-	        <p>{{$ctrl.service.additionalDetails}}</p>
-	    </div>
-	</div>
-
-
-    
+    <div class="col-md-offset-4 col-md-5 service-detail-card" >
+        <p>{{$ctrl.service.details}}</p> 
+        <button id="detailsButton" class="w3-btn w3-round-xxlarge" ng-click="$ctrl.myFunc()"> {{$ctrl.detailsButton}} </button>
+        <div ng-show="$ctrl.showMe">
+            <p>{{$ctrl.service.additionalDetails}}</p>
+        </div>
+    </div>    
 </div>

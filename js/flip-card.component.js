@@ -14,8 +14,8 @@ flipCard.component('flipCard', {
 	    	return {
 		        frontImg: value,
 		        backImg: backImages[index]
-		    	}
-			});
+		    }
+		});
 
 
 		$(document).ready(function(){
@@ -24,11 +24,7 @@ flipCard.component('flipCard', {
 		  trigger: 'hover'
 		  });   
 		});
-
-
 	}
-
-
 });
 
 

@@ -1,13 +1,28 @@
 {
-  "name": "angular-app",
-  "description": "Legal corporation web page",
-  "homepage": "https://github.com/angular/angular-phonecat",
-  "license": "MIT",
-  "private": true,
+  "name": "corporation",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "app.js",
   "dependencies": {
-    "angular": "1.5.x",
-    "angular-mocks": "1.5.x",
-    "angular-route": "1.5.x",
-    "bootstrap": "3.3.7"
-  }
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonija/LegalCorporationWebSite.git"
+  },
+  "keywords": [
+    "empty"
+  ],
+  "author": "A.M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonija/LegalCorporationWebSite/issues"
+  },
+  "homepage": "https://github.com/Tonija/LegalCorporationWebSite#readme"
 }
