@@ -4,7 +4,7 @@ var serviceDetail = angular.module('serviceDetail', ['ngRoute']);
 
 serviceDetail.component('serviceDetail', {
 
-	templateUrl: './components/service-detail/service-detail.template.html',
+	templateUrl: 'partials/service-detail.template.html',
 
 	controller: ['$http', '$routeParams',
 		function ServiceDetailController($http, $routeParams){

@@ -2,7 +2,7 @@ var flipCard = angular.module('flipCard', []);
 
 flipCard.component('flipCard', {
 
-	templateUrl:'components/flip-card.template.html',
+	templateUrl:'partials/flip-card.template.html',
 
 	controller: function FlipCardController(){
 

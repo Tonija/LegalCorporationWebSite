@@ -4,7 +4,7 @@ var serviceList = angular.module('serviceList', []);
 
 serviceList.component('serviceList', {
 
-	templateUrl: 'components/service-list.template.html',
+	templateUrl: './partials/service-list.template.html',
 
 	controller: ['$http',
 		function ServiceListController($http){

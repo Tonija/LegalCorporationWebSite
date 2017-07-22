@@ -4,7 +4,7 @@ var formGroup = angular.module('formGroup', []);
 
 formGroup.component('formGroup', {
 
-	templateUrl: './components/form-group.template.html',
+	templateUrl: 'partials/form-group.template.html',
 
 	controller: ['$http',
 		function FormGroupController($http){

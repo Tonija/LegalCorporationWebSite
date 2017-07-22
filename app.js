@@ -16,7 +16,7 @@ app.config(['$locationProvider', '$routeProvider',
 
       $routeProvider.
         when('/work', {
-          templateUrl: './Partials/work.html'
+          templateUrl: 'partials/work.html'
         }).
         when('/services', {
            
@@ -26,7 +26,7 @@ app.config(['$locationProvider', '$routeProvider',
           template: '<service-detail></service-detail>'
         }).
         when('/contact', {
-        	templateUrl: './Partials/contact.html'
+        	templateUrl: 'partials/contact.html'
         }).
         otherwise('/work');
     }
