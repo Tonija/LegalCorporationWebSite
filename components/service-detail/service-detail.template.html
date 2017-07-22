@@ -1,16 +1,26 @@
 <div class="container-fluid">
 
-  	<div class="topTextHolder w3-card-4 w3-round-xxlarge col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-        <h1> <b>About</b> the </h1>
-        <h1 style="color: #8b0000 ;"> <b>service:</b> </h1>       	     
+    <div class="page-header">
+        <h1>Service name <small> Short description</small></h1>
     </div>
-    <div class="row row-service-cards row-centered">
-    	<div class="w3-card-4 service-card">
-	    	<p>{{$ctrl.service.details}}</p> 
-	    	<button id="detailsButton" class="btn-danger btn-circle" ng-click="$ctrl.myFunc()"> {{$ctrl.detailsButton}} </button>
-		    <div ng-show="$ctrl.showMe">
-		        <p>{{$ctrl.service.additionalDetails}}</p>
-		    </div>
-		</div>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="img/test1.png" height="55px;" />
+            <img src="img/test2.png" height="55px;"/>
+            <img src="img/test3.png" height="65px;"/>
+        </div>        
     </div>
+
+  	
+    
+	<div class="col-md-offset-4 col-md-5 service-detail-card ">
+    	<p>{{$ctrl.service.details}}</p> 
+    	<button id="detailsButton" class="w3-btn w3-round-xxlarge" ng-click="$ctrl.myFunc()"> {{$ctrl.detailsButton}} </button>
+	    <div ng-show="$ctrl.showMe">
+	        <p>{{$ctrl.service.additionalDetails}}</p>
+	    </div>
+	</div>
+
+
+    
 </div>
