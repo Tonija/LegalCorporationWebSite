@@ -1,6 +1,6 @@
 # Legal Corporation Website Demo
 
-A Node app built with Angular.
+Single-page application (SPA) with Node.js and AngularJS.
 
 ## Installation
 
