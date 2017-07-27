@@ -2,7 +2,7 @@
 
 Single-page application (SPA) with Node.js and AngularJS.
 
-##Requirements
+## Requirements
 
 Node and npm
 
