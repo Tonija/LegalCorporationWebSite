@@ -13,3 +13,5 @@ Node and npm
 3. Start the server: node server.js
 
 ## Screenshot
+
+![alt Screenshot](https://raw.githubusercontent.com/Tonija/LegalCorporationWebSite/master/Screenshot.jpg)
