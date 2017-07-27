@@ -1,14 +1,14 @@
 {
   "name": "corporation",
   "version": "1.0.0",
-  "description": "website demo",
+  "description": "website_demo",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.3",
-    "open": "^0.0.5",
-    "angular-route": "^1.6.5",
     "angular": "^1.6.5",
-    "bootstrap": "^3.3.7"
+    "angular-route": "^1.6.5",
+    "bootstrap-css-only": "^3.3.7",
+    "express": "^4.15.3",
+    "open": "^0.0.5"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tonija/LegalCorporationWebSite.git"
+    "url": "git+https://github.com/Tonija/LegalCorporationWebSite.git"
   },
   "author": "A.M.",
   "license": "ISC",
