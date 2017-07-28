@@ -6,8 +6,8 @@ var services = require('../data/services.json'),
 	litigation_management = require('../data/litigation-management.json');
 	employement_agreements = require('../data/employement-agreements.json');
 
-function getServices (request, response, next) {
-	return response.status(200).json(services);
+function getServices (req, res, next) {
+	return res.status(200).json(services);
 }
 function getLegalService (req, res, next) {
 	return res.status(200).json(legal_service);
